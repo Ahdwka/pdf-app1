@@ -52,11 +52,11 @@ export default function CategoriesCard() {
             className="bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer mx-auto"
           >
             <Image
-              className="w-full h-60 object-cover"
+              className="w-full h-48 object-cover"
               src={category.image ?? ""}
               alt={category.name ?? ""}
-              width={512}
-              height={512}
+              width={200}
+              height={108}
             />
             <div className=" p-8">
               <h2
