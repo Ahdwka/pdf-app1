@@ -43,7 +43,7 @@ export default function CategoriesCard() {
     return <div className="text-center text-gray-500">لا توجد فئات حالياً</div>;
 
   return (
-    <div className=" mx-auto p-10">
+    <div className=" mx-auto p-6">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 animate-fade-up animate-delay-500 animate-once animate-ease-out">
         {categories.map((category) => (
           <div
